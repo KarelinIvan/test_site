@@ -13,8 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
-    background-color: #b3a1a1;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -60,16 +59,65 @@ body {
     min-height: 740px;
     background-image: url(../img/first_scrin_bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .header__title {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 112px;
 }
+
 .header__logo {
+    width: 60px;
+    height: 60px;
 }
+
 .burger {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0;
+    background-color: var(--accent-color);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .burger__line {
+    display: block;
+    background-color: #fff;
+    width: 21px;
+    height: 3px;
+    margin-bottom: 4px;
 }
+
+.burger__line:last-child {
+    margin-bottom: 0;
+}
+
 .main__title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: var(--white-color);
 }
+
 .main__text {
+    max-width: 734px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin: 0 auto;
 }
