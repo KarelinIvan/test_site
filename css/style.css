@@ -273,6 +273,8 @@ body {
     border: 1px solid rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     min-height: 181px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 .strip__flex {
@@ -281,20 +283,30 @@ body {
     align-items: center;
 }
 
-.strip__text-h2 {
+.strip__flex-left {
     color: var(--white-color);
     text-transform: uppercase;
+}
+
+.strip__text-h2 {
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    padding-top: 30px;
 }
 
 .strip__text-h3 {
-    color: var(--white-color);
-    text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.02em;
     padding-top: 6px;
+}
+
+.strip__flex-right {
+    
+}
+
+.strip__button {
+    background-color: #fff;
+    width: 175px;
+    height: 49px;
 }
