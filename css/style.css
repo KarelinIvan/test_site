@@ -272,8 +272,8 @@ body {
     background-color: var(--accent-color);
     border: 1px solid rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    /* min-height: 181px; */
-    padding-top: 31px;
+    min-height: 181px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 
@@ -302,7 +302,7 @@ body {
 }
 
 .strip__flex-right {
-        padding-top: 21px;
+    padding-top: 21px;
 }
 
 .strip__button {
@@ -320,4 +320,17 @@ body {
 
 .button__icon {
     margin-right: 15px;
+}
+
+@media screen and (max-width: 1280px) {
+    .strip {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .strip__flex {
+        flex-wrap: wrap;
+}
 }
