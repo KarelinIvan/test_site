@@ -288,13 +288,13 @@ body {
     text-transform: uppercase;
 }
 
-.strip__text-h2 {
+.strip__text-h4 {
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 0.02em;
 }
 
-.strip__text-h3 {
+.strip__text-h5 {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -302,7 +302,7 @@ body {
 }
 
 .strip__flex-right {
-    
+
 }
 
 .strip__button {
