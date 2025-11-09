@@ -336,33 +336,35 @@ body {
 }
 
 .services {
-
-}
-
-.text__h2 {
-
+    padding: 149px 0;
 }
 
 .text__h2_services {
-
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 57px;
 }
 
 .services__grid {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .services__item {
-
+    width: 350px;
+    height: 250px;
+    background: rgba(247, 247, 247, 1);
+    padding: 59px 92px 59px 86px;
 }
 
 .services__img {
-
-}
-
-.text__h4 {
-
+    margin: 0 auto;
 }
 
 .text__h4_services {
-    
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 21px;
+    letter-spacing: 0.02em;
 }
