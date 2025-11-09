@@ -433,7 +433,7 @@ body {
 }
 
 .text__h2_question {
-
+    text-align: center;
 }
 
 .question__items {
@@ -479,4 +479,14 @@ body {
 }
 .text__h3_question.text__h3_close + .text__p_question {
     display: none;
+}
+@media screen and (max-width: 1280px) {
+    .question {
+        padding: 150px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .question__items {
+    }
 }
