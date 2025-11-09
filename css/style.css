@@ -426,7 +426,7 @@ body {
 }
 
 .question {
-    margin-bottom: 150px;
+    margin-bottom: 143px;
 }
 .question .text__h2_question {
     margin-bottom: 50px;
@@ -489,4 +489,21 @@ body {
 @media screen and (max-width: 768px) {
     .question__items {
     }
+}.parthners {
+    background-color: var(--dark-color);
+    min-height: 364px;
+}
+.text__h2_parthners {
+    text-align: center;
+    padding-top: 100px;
+    color: var(--white-color);
+}
+.parthners__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.parthners__item {
+    padding-top: 50px;
+}
+.parthners__img {
 }
