@@ -519,9 +519,6 @@ body {
     .parthners__flex {
         justify-content: center;
     }
-}
-
-@media screen and (max-width: 768px) {
     .parthners__item {
         margin-right: 10px;
         margin-left: 10px;
