@@ -489,21 +489,41 @@ body {
 @media screen and (max-width: 768px) {
     .question__items {
     }
-}.parthners {
+}
+.parthners {
     background-color: var(--dark-color);
-    min-height: 364px;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 .text__h2_parthners {
     text-align: center;
-    padding-top: 100px;
     color: var(--white-color);
+    margin-bottom: 50px;
 }
 .parthners__flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .parthners__item {
-    padding-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    max-width: 170px;
+}
+.parthners__item:nth-child(5n) {
+    margin-right: 0;
 }
 .parthners__img {
+}
+@media screen and (max-width: 1280px) {
+    .parthners__flex {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .parthners__item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
