@@ -332,5 +332,37 @@ body {
 @media screen and (max-width: 768px) {
     .strip__flex {
         flex-wrap: wrap;
+    }
 }
+
+.services {
+
+}
+
+.text__h2 {
+
+}
+
+.text__h2_services {
+
+}
+
+.services__grid {
+
+}
+
+.services__item {
+
+}
+
+.services__img {
+
+}
+
+.text__h4 {
+
+}
+
+.text__h4_services {
+    
 }
