@@ -348,23 +348,26 @@ body {
 .services__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 30px;
+    justify-content: center;
 }
 
 .services__item {
     width: 350px;
     height: 250px;
     background: rgba(247, 247, 247, 1);
-    padding: 59px 92px 59px 86px;
+    padding: 59px 0;
 }
 
 .services__img {
-    margin: 0 auto;
+    margin: 0 auto 21px;
 }
 
 .text__h4_services {
     text-align: center;
     text-transform: uppercase;
-    padding-top: 21px;
     letter-spacing: 0.02em;
+    max-width: 172px;
+    margin: 0 auto;
 }
