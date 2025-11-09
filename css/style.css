@@ -339,12 +339,6 @@ body {
     padding: 149px 0;
 }
 
-.text__h2_services {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 57px;
-}
-
 .services__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -364,10 +358,38 @@ body {
     margin: 0 auto 21px;
 }
 
+.text__h2_services {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+}
+
 .text__h4_services {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     max-width: 172px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .services {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .services__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .services__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
