@@ -395,11 +395,14 @@ body {
 }
 
 .portfolio {
-
+    margin-bottom: 150px;
 }
 
 .porfolio__grid {
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 0;
 }
 
 .portfolio__item {
@@ -408,4 +411,16 @@ body {
 
 .portfolio__img {
 
+}
+
+@media screen and (max-width: 1280px) {
+    .porfolio__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .porfolio__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
