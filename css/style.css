@@ -571,21 +571,36 @@ body {
 }
 
 .contacts {
-
+    padding-top: 98px;
 }
 
 .text__h2_contacts {
-
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-.contacts__flex {
-
-}
-
-.contacts__items {
-
+.contacts__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .contacts_item {
-    
+
 }
+
+.contacts__icon {
+
+}
+
+.text__h3_cap {
+
+}
+
+.text__h3_content {
+
+}
+
+.text__h3_color {
+
+}
+
