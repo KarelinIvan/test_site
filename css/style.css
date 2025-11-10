@@ -405,14 +405,6 @@ body {
     gap: 0;
 }
 
-.portfolio__item {
-
-}
-
-.portfolio__img {
-
-}
-
 @media screen and (max-width: 1280px) {
     .porfolio__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -518,22 +510,45 @@ body {
 }
 
 .reviews {
-    padding-top: 150px;
+    padding-top: 148px;
 }
 
 .text__h2_reviews {
     text-align: center;
+    margin-bottom: 63px;
 }
 
 .reviews__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .reviews__card {
-
+    background: rgba(247, 247, 247, 1);
+    padding: 0 30px 30px 30px;
+    margin-bottom: 32px;
 }
 
-.reviews__item {
-    
+.reviews_quotes {
+    color: var(--accent-color);
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 142px;
+    margin-bottom: -60px;
+}
+
+.text__p_reviews {
+    color: var(--gray-color);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.text__h4_reviews {
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
+
+.reviews__author {
+    color: var(--accent-color);
 }
