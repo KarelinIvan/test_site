@@ -572,6 +572,7 @@ body {
 
 .contacts {
     padding-top: 98px;
+    margin-bottom: 150px;
 }
 
 .text__h2_contacts {
@@ -611,3 +612,17 @@ body {
     color: var(--accent-color);
 }
 
+.footer {
+    background-color: var(--dark-color);
+    padding: 30px 0;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text__p_footer {
+    color: var(--white-color);
+    line-height: 22px;
+}
