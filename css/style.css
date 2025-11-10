@@ -582,6 +582,7 @@ body {
 .contacts__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
 .contacts_item {
@@ -589,18 +590,24 @@ body {
 }
 
 .contacts__icon {
-
+    margin: 0 auto;
+    margin-bottom: 18px;
 }
 
 .text__h3_cap {
-
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--gray-color);
+    margin-bottom: 17px;
 }
 
 .text__h3_content {
-
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .text__h3_color {
-
+    color: var(--accent-color);
 }
 
