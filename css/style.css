@@ -384,6 +384,10 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+.text__h3_content a {
+    text-decoration: none;
+    color: inherit;
+}
 .text__h3_color {
     color: var(--accent-color);
 }
